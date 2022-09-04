@@ -1,4 +1,4 @@
-﻿using ConsoleTables;
+using ConsoleTables;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -13,4 +13,3 @@ Console.Write("Enter the second number: ");
 num2 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
-
