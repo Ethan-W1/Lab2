@@ -1,4 +1,4 @@
-﻿using ConsoleTables;
+using ConsoleTables;
 
 // #2 Multiply table
 int bigNumber;
