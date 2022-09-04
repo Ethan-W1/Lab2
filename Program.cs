@@ -1,15 +1,15 @@
 using ConsoleTables;
 
-// See https://aka.ms/new-console-template for more information
+// #2 Multiply table
+int bigNumber;
 
-// #1 print the output of adding two numbers from user input
-Console.WriteLine("Hello!");
-
-int num1, num2;
-Console.Write("Enter the first number: ");
+Console.Write("Enter the number you like to use ");
 num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Enter the second number: ");
-num2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the number you would like to use for the multiplication table:");
+bigNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+for (int i = 0; i < bigNumber; i++)
+{
+    Console.WriteLine($"{num1} * {i} = {num1 * i}");
+}
